@@ -5,7 +5,7 @@ A simple [Qwik City][qwik-city] progress bar component using [Nprogress][nprogre
 ## Installation
 
 ```bash
-yarn  add @quasarwork/qwik-city-nprogress
+yarn add @quasarwork/qwik-city-nprogress
 ```
 
 ## Usage
@@ -35,20 +35,22 @@ export default component$(() => {
 
 ## Configuration
 
-You can use any configuration property from the original [Nprogress][nprogress] package (see [Nprogress configuration](<(https://github.com/rstacruz/nprogress#configuration)>)).
+You can use any configuration property from the original [Nprogress][nprogress] package (see [Nprogress configuration](https://github.com/rstacruz/nprogress#configuration)).
 
 Two other properties have been added to make it easier to customize the look of the progress bar.
 
 ### color
 
-Typ: `string`
+Type: `string`
+
 Default: `undefined`
 
 Keeping the property `undefined` means keeping the original color provided by [Nprogress][nprogress], which is `#29d`.
 
 ### height
 
-Typ: `string`
+Type: `string`
+
 Default: `undefined`
 
 Keeping the property `undefined` means keeping the original height provided by [Nprogress][nprogress], which is `2px`.
