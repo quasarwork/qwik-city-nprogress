@@ -1,6 +1,6 @@
 {
   "name": "@quasarwork/qwik-city-nprogress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple Qwik City progress bar component using NProgress.",
   "author": {
     "name": "Aurélien BOBENRIETH from Quasar.work",
