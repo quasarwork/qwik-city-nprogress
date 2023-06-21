@@ -19,7 +19,7 @@ _It is recommended to add it to the top-level `layout` component, so that it wil
 `src/routes/layout.tsx`
 
 ```typescript
-import QwikCityNprogress from '@quasarwork/qwik-city-nprogress'
+import { QwikCityNprogress } from '@quasarwork/qwik-city-nprogress'
 
 export default component$(() => {
   return (
@@ -60,7 +60,7 @@ Keeping the property `undefined` means keeping the original height provided by [
 `src/routes/layout.tsx`
 
 ```typescript
-import QwikCityNprogress from '@quasarwork/qwik-city-nprogress'
+import { QwikCityNprogress } from '@quasarwork/qwik-city-nprogress'
 
 export default component$(() => {
   return (
