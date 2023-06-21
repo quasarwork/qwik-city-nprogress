@@ -1,0 +1,15 @@
+#nprogress .bar {
+  background: var(--qwik-city-nprogress-color, #29d);
+  height: var(--qwik-city-nprogress-height, 2px);
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--qwik-city-nprogress-color, #29d),
+    0 0 5px var(--qwik-city-nprogress-color, #29d);
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--qwik-city-nprogress-color, #29d);
+  border-left-color: var(--qwik-city-nprogress-color, #29d);
+}
